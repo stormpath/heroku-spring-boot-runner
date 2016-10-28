@@ -1,0 +1,28 @@
+{
+  "name": "StormpathSpringBootRunner",
+  "description": "Simple Spring-Boot runner for Stormpath examples.",
+  "keywords": [
+    "shiro",
+    "servlet",
+    "java",
+    "stormpath"
+  ],
+  "addons": [
+    "stormpath"
+  ],
+  "repository": "https://github.com/stormpath/heroku-spring-boot-runner",
+  "success_url": "/",
+  "env": {
+    "GROUP_ID": {
+      "description": "A Maven Artifact's Group ID"
+    },
+    "ARTIFACT_ID": {
+      "description": "A Maven Artifact's ID"
+    },
+    "VERSION": {
+      "description": "A Maven Artifact's Version, '[0.0.0,)' will use the latest version",
+      "value": "[0.0.0,)"
+    }
+
+  }
+}
